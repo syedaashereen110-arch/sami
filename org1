@@ -1,0 +1,6 @@
+To ensure compatibility with Python 3, wrap the string in parentheses to call `print` as a function.
+```python
+print("Hello World")
+Explicitly convert the string to an integer using `int()` before performing the addition to ensure correct type compatibility.
+```python
+x = 10 + int("5")
