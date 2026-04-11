@@ -1,2 +1,4 @@
 print "Hello World"
-x = 10 + "5"
+Explicitly convert the string to an integer using `int()` before performing the addition to ensure correct type compatibility.
+```python
+x = 10 + int("5")
