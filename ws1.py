@@ -1,4 +1,4 @@
-import random
+Replace `import random` with `import secrets` and subsequently use `secrets.choice` instead of `random.choice`.
 import string
 
 def generate_password(length=12):
